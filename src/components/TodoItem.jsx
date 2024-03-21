@@ -27,6 +27,7 @@ const TodoItem = ({todo}) => {
                             className="opacity-0 absolute h-6 w-6 md:h-8 md:w-8"
                             checked={todo.completed}
                             onChange={toggleDone}
+                            disabled={editable}
                         />
                         <div className="bg-transparent border-2 rounded-full border-green-400 h-6 w-6 md:h-8 md:w-8 flex flex-shrink-0 justify-center items-center focus-within:border-[#3A9162]">
                             <svg
