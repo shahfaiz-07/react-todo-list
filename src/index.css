@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+input:checked + div {
+  @apply border-[#3A9162] bg-[#3A9162];
+}
+input:checked + div svg {
+  @apply block;
+}
+@tailwind utilities;
